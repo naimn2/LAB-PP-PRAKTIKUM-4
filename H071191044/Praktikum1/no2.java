@@ -1,5 +1,6 @@
 import java.util.Scanner;
-	class no2 {	// ===> PERHATIKAN INDENT AGAR KODE LEBIH RAPI DAN LAIN KALI GUNAKAN TEXT EDITOR
+	class no2 {	// ==> NAMA KELAS HARUS DIAWALI DENGAN HURUF KAPITAL
+		// ===> PERHATIKAN INDENT AGAR KODE LEBIH RAPI DAN LAIN KALI GUNAKAN TEXT EDITOR
 		public static void main(String [] args) {
 			Scanner x= new Scanner(System.in);
 			System.out.print("Waktu (Detik) : ");
