@@ -8,9 +8,9 @@ class Praktikum3 {
         double a = input.nextDouble(); // a = sudut elevasi pengamat terhadap ujung depan kapal
         double b = input.nextDouble(); // b = sudut elevasi pengamat terhadap ujung belakang kapal
 
-        double sudut = Math.tan(Math.toRadians(a));
+        double sudut = Math.tan(Math.toRadians(a)); // TIDAK PERLU BUAT VARIABEL BARU, BISA PAKE VARIABEL a
         double alas = sudut*h;
-        double sudut2 = Math.tan(Math.toRadians(b));
+        double sudut2 = Math.tan(Math.toRadians(b)); // TIDAK PERLU BUAT VARIABEL BARU, BISA PAKE VARIABEL b
         double alas2 = sudut2*h;
         double panjang = alas-alas2;
 
