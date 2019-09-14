@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-	class no4 {	// ===> NAMA CLASS HARUS DIAWALI DENGAN HURUF KAPITAL
+	class no4 {	// ===> NAMA KELAS HARUS DIAWALI DENGAN HURUF KAPITAL
 		// ===> PERHATIKAN INDENT AGAR KODE LEBIH RAPI DAN LAIN KALI GUNAKAN TEXT EDITOR
 		public static void main(String [] args) {
 			Scanner x= new Scanner(System.in);
