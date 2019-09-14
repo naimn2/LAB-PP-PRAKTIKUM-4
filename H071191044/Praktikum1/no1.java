@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-	class no1 {	// ===> PERHATIKAN INDENT AGAR KODE LEBIH RAPI
+	class no1 {	// ===> PERHATIKAN INDENT AGAR KODE LEBIH RAPI DAN LAIN KALI GUNAKAN TEXT EDITOR
 		public static void main(String [] args) {
 			Scanner x= new Scanner(System.in);
 			System.out.println("Rata-rata waktu (Jam) : ");
