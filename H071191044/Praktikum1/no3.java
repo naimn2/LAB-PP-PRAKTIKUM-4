@@ -1,6 +1,7 @@
 import java.util.Scanner;
 	
-	class no3 {	// ===> PERHATIKAN INDENT AGAR KODE LEBIH RAPI DAN LAIN KALI GUNAKAN TEXT EDITOR
+	class no3 {	// ==> NAMA KELAS HARUS DIAWALI DENGAN HURUF KAPITAL
+		// ===> PERHATIKAN INDENT AGAR KODE LEBIH RAPI DAN LAIN KALI GUNAKAN TEXT EDITOR
 		public static void main(String [] args) {
 			Scanner x= new Scanner (System.in);
 			System.out.print("Ketinggian menara : ");
