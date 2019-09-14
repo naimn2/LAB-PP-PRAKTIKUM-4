@@ -6,6 +6,6 @@ class Kelipatan{
         int a=key.nextInt();
         System.out.print("input bilangan 2 = ");
         int b=key.nextInt();
-        System.out.printf("apakah %d kelipatan dari %d ?%b",a,b,(b%a==0));
+        System.out.printf("apakah %d kelipatan dari %d ?%b",a,b,(b%a==0)); // KONDISI YANG BENAR a % b == 0 
     }
 }
