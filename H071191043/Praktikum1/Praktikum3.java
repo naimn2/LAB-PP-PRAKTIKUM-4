@@ -19,6 +19,6 @@ class Praktikum3{
 
 
      
-        
+        // ================> KODENYA AKAN LEBIH RAPI KALAU TIDAK BANYAK PEMBOROSAN BARIS YANG KOSONG
     }
 }
