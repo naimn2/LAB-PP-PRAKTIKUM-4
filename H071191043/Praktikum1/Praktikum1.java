@@ -11,7 +11,7 @@ class Praktikum1{
         double hasil = (k * t) / efisiensi;
         System.out.printf("Jadi, jumlah bensin yang digunakan %.3f ", hasil);
 
-
+            // ================> KODENYA AKAN LEBIH RAPI KALAU TIDAK BANYAK PEMBOROSAN BARIS YANG KOSONG
         in.close();   
     }
 }
