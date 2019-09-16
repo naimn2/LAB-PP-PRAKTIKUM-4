@@ -4,11 +4,12 @@ class TPRAK4{
     Scanner input = new Scanner(System.in);
 
     String nama = input.nextLine();
-    float tinggiBadan = input.nextInt();
-    float beratBadan = input.nextInt();
-    float ideal = tinggiBadan - 100 - 10/100;
+    float tinggiBadan = input.nextFloat();
+    float beratBadan = input.nextFloat();
+    float persentase = input.nextFloat();
+    float ideal = tinggiBadan - 100 - persentase/100 * (tinggiBadan - 100);
     //Persentasi Kenaikan = Laki-laki : 10% dan Perempuan : 15%
-    float target = beratBadan - ideal;
+    float target = ideal - beratBadan;
 
     System.out.println("Nama ="+ nama);
     System.out.printf("Tinggi Badan = %.1f cm", tinggiBadan);

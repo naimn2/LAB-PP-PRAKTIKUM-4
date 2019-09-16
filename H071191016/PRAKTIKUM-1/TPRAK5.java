@@ -9,10 +9,8 @@ class TPRAK5{
     System.out.println("Nilai b ="+ b);
     
     boolean c = a % b == 0;
-    boolean d = b % a == 0;
-    boolean e = c || d;
 
-    System.out.println("Apakah" + a + "Kelipatan dari" + b + "? ="+ e);
+    System.out.println("Apakah" + a + "Kelipatan dari" + b + "? ="+ c);
     }
     
     }
