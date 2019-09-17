@@ -6,7 +6,7 @@ class TPRAK2{
     detik = sc.nextInt();
     System.out.println("Masukkan Detik ="+ detik);
     jam = detik/3600;
-    detik = detik - (jam*3600);
+    detik = detik - (jam*3600); // a % b ==> a - (x*b);
     menit = detik / 60;
     detik = detik - (menit*60);
     

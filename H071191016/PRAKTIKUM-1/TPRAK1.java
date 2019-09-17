@@ -7,7 +7,7 @@ class TPRAK1{
     int v = sc.nextInt();
     // v = Rata-rata Kecepatan
     double efisiensi = 14;
-    double jumlahBensin = t*v/14;
+    double jumlahBensin = t*v/14; // jarak = t*v
 
     System.out.println("t = "+ t);
     System.out.println("v = "+ v);
