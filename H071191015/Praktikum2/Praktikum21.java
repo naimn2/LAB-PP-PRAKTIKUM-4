@@ -23,12 +23,10 @@ class Praktikum21 {
             System.out.println(positif + " Angka Positif ");
             System.out.println(negatif + " Angka Negatif ");
 
-        } catch (InputMismatchException ime) {
-            // System.out.println(ime.print);
-            ime.printStackTrace();
+        } catch (Exception ime) {
+            System.out.println("Inputan Tidak Valid");
         } 
 
-        System.out.println(-11%2);
         
     }
 }
