@@ -8,12 +8,12 @@ class Praktikum32 {
         int i = 0;
 
         while (i<y) {
-            // if (i%x==0) {
-            //     System.out.println();
-            // }
+            if (i%x==0) {
+                System.out.println();
+            }
             
             i++;
-            System.out.printf("%d"+((i%x==0)?"\n":" "),i);
+            System.out.printf("%d ",i);
         }
         
     }
