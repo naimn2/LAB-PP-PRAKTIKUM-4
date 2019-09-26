@@ -6,11 +6,11 @@ class Derajatkejam{
         int sekon = Math.round((derajat/360)*(24*3600));
         int jam=0,menit=0;
         while(sekon>=3600){
-            jam=jam+1;
+            jam++;
             sekon-=3600;
         }
         while(sekon>=60){
-            menit=menit+1;
+            menit++;
             sekon-=60;
         }
         jam = (jam+6)%24;
