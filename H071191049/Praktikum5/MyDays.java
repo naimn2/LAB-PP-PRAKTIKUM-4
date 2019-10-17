@@ -6,6 +6,7 @@ class MyDays{
         myDays(hari);
         san.close();
     }
+    //method myDays
     static void myDays (int a){
         int tahun = a/365;
         a = a%365;
