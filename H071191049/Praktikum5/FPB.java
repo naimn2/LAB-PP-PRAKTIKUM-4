@@ -11,6 +11,8 @@ class FPB{
     public static int cariFPB (int x, int y){
         int calonFPB = 1;
         int fpb = 0;
+        x = Math.abs(x);
+        y = Math.abs(y);
         if(x==0||y==0){
             fpb=x>y?x:y;    
         }
